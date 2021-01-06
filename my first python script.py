@@ -13,7 +13,7 @@ phy=(int(input('enter your physics marks:')))
 
 total= english+maths+che+phy
 
-output=input('Do you want ypur total marks to be displayed with statement:')
+output=input('Do you want your total marks to be displayed with statement:')
 if output == 'yes' or 'Yes' or 'y' or 'Y':
   print(fname,"of",class1,section,'has scored',total,'out of 200 in the examiniation')
 else:
